@@ -86,7 +86,10 @@ export default function Footer() {
       </div>
       <div className="px-[50px] border border-t-gray-400">
         <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-          <p className="text-black text-sm text-center sm:text-left">Copyright © 2023 Nhóm 1 by: Trần Quang Nhựt, Phạm Tiến Đạt, Nguyễn Ngọc Minh QUÝ
+          <p className="text-black text-xl text-center sm:text-left font-bold">Copyright © 2023 Nhóm 1 by:
+          <span className='bg-slate-300 mx-3 rounded-md'>Trần Quang Nhựt</span>  
+          <span className='bg-slate-300 mx-3 rounded-md'>Phạm Tiến Đạt</span>  
+          <span className='bg-slate-300 mx-3 rounded-md'>Nguyễn Ngọc Minh Quí</span>  
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
             <a className="text-gray-500">

@@ -76,7 +76,7 @@ export default function Register() {
           <Button type='primary' htmlType="submit" className='bg-[#1677ff] mb-4 font-semibold text-sm'>Đăng ký</Button>
         </div>
       </Form>
-      <h2 className='text-center'>Bạn đã có tài khoản? <NavLink to="/login" className="text-red-500 font-semibold">Đăng nhập</NavLink></h2>
+      <h2 className='text-center'>Bạn đã có tài khoản? <NavLink to="/sign-in" className="text-red-500 font-semibold">Đăng nhập</NavLink></h2>
     </div>
   )
 }
