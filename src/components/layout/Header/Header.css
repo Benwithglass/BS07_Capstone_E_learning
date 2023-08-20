@@ -1,3 +1,26 @@
-/* header ul li {
+header ul li {
+    position: relative;
+    isolation: isolate;
+}
 
-} */
+header ul li::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    border-top: 3px solid green;
+    top: -5px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    
+    scale: 0 1;
+    transform-origin: left;
+    transition: scale 0.5s;
+}
+
+header ul li:hover::after, 
+header ul li:focus-visible::after {
+    scale: 1 1;
+}
+

@@ -1,0 +1,28 @@
+.signin-signup .font-bold{
+    border: 1px solid green;
+    padding: 5px;
+    border-radius: 10px;
+
+
+    position: relative;
+    isolation: isolate;
+}
+
+.signin-signup .font-bold::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    background-color: green;
+    border-radius: 8px;
+    inset: 0;
+
+
+    scale: 0 1;
+    transform-origin: center;
+    transition: scale 0.5s;
+}
+
+.signin-signup .font-bold:hover::after,
+.signin-signup .font-bold:focus-visible::after {
+    scale: 1 1;
+}

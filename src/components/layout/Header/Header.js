@@ -19,6 +19,7 @@ export default function Header() {
     const navigate = useNavigate()
 
     // xử lý đăng xuất
+    // cc
     const handleLogout = () => {
         // xóa thông tin dưới localStorage
         localUser.remove()
@@ -232,19 +233,19 @@ export default function Header() {
                                     <NavLink to="/info" className="block text-gray-700 rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white">THÔNG TIN</NavLink>
                                 </li>
                             </ul>
-                            <div className='font-medium border-t border-gray-200'>
+                            <div className='font-medium border-t border-gray-200' id="login-signin">
                                 {userInfo ? <div className='flex items-center'>
                                     <svg aria-hidden="true" className="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M3 3a1 1 0 00-1 1v12a1 1 0 102 0V4a1 1 0 00-1-1zm10.293 9.293a1 1 0 001.414 1.414l3-3a1 1 0 000-1.414l-3-3a1 1 0 10-1.414 1.414L14.586 9H7a1 1 0 100 2h7.586l-1.293 1.293z" clipRule="evenodd" /></svg>
-                                    <NavLink onClick={handleLogout} className="ml-3 hover:text-[#ff006e] font-medium">Đăng xuất</NavLink>
+                                    <NavLink onClick={handleLogout} className="ml-3  font-medium">Đăng xuất</NavLink>
                                 </div> :
                                     <ul>
-                                        <li className='flex items-center'>
+                                        <li className='flex items-center' id="log">
                                             <svg aria-hidden="true" className="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M3 3a1 1 0 00-1 1v12a1 1 0 102 0V4a1 1 0 00-1-1zm10.293 9.293a1 1 0 001.414 1.414l3-3a1 1 0 000-1.414l-3-3a1 1 0 10-1.414 1.414L14.586 9H7a1 1 0 100 2h7.586l-1.293 1.293z" clipRule="evenodd" /></svg>
-                                            <NavLink to="/sign-in" className="ml-3 hover:text-[#ff006e] font-medium">Đăng nhập</NavLink>
+                                            <NavLink to="/sign-in" className="ml-3  font-medium">Đăng nhập</NavLink>
                                         </li>
-                                        <li className='flex items-center'>
+                                        <li className='flex items-center' id="log">
                                             <svg aria-hidden="true" className="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M5 4a3 3 0 00-3 3v6a3 3 0 003 3h10a3 3 0 003-3V7a3 3 0 00-3-3H5zm-1 9v-1h5v2H5a1 1 0 01-1-1zm7 1h4a1 1 0 001-1v-1h-5v2zm0-4h5V8h-5v2zM9 8H4v2h5V8z" clipRule="evenodd"></path></svg>
-                                            <NavLink to="/sign-up" className="ml-3 hover:text-[#ff006e] font-medium">Đăng ký</NavLink>
+                                            <NavLink to="/sign-up" className="ml-3  font-medium">Đăng ký</NavLink>
                                         </li>
                                     </ul>
                                 }
