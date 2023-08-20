@@ -176,7 +176,7 @@ export default function Header() {
                             <div className='flex items-center justify-between'>
                                 <div className='flex items-center'>
                                     <img className='rounded-full w-[50px] h-[50px]' src="/images/avatar.jpg" alt="lỗi" />
-                                    <h4 className='ml-4 text-xl font-bold'>{userInfo?.taiKhoan}</h4>
+                                    <h4 className='ml-4 text-xl font-bold'>xin chào {userInfo?.taiKhoan}</h4>
                                 </div>
                             </div>
                             {userInfo?.maLoaiNguoiDung == "HV" ? "" : <div className="text-lg mt-4 py-4 md:py-6 font-medium border-b border-gray-200">

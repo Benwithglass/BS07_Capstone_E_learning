@@ -69,7 +69,7 @@ function UserMenu({userInfo, handleLogout}) {
             >
                 <a onClick={(e) => e.preventDefault()}>
                     <Space>
-                        <img className='rounded-full w-[40px] h-[40px]' src='/images/avatar.jpg' alt="lỗi" />
+                        <span>Xin chào, {userInfo.taiKhoan}!</span><img className='rounded-full w-[40px] h-[40px]' src='/images/avatar.jpg' alt="lỗi" />
                     </Space>
                 </a>
             </Dropdown>  : <div className='signin-signup'><NavLink to="/sign-in" className="mr-4 hover:text-white font-bold">Đăng nhập</NavLink> <NavLink to="/sign-up" className="hover:text-white font-bold">Đăng ký</NavLink></div>}
