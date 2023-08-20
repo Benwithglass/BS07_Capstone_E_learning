@@ -1,0 +1,4 @@
+.ant-table-bordered thead > tr > th,
+.ant-table-bordered tbody > tr > td {
+  border: 1px solid #f3e9e9;
+}

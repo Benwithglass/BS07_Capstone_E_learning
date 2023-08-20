@@ -1,0 +1,29 @@
+.ant-table-cell {
+    text-align: center !important;
+    color: #212529;
+}
+
+/* .ant-btn-primary {
+    background-color: #41b294;
+    border-color: #41b294;
+    color: #fff;
+} */
+
+/* .ant-btn-primary:not(:disabled):hover {
+    background-color: #41b294;
+    border-color: #41b294;
+    color: #fff;
+} */
+.ant-form-item .ant-form-item-label >label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+    content: "";
+}
+.ant-form-item .ant-form-item-label {
+    text-align: left;
+}
+
+
+
+.ant-table-bordered thead > tr > th,
+.ant-table-bordered tbody > tr > td {
+  border: 1px solid #f3e9e9;
+}

@@ -1,0 +1,17 @@
+.ant-layout-sider {
+    background-color: transparent !important;
+    background-image: url("../../assets/images/bg-authen.png") !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+.ant-layout-sider-trigger {
+    background-color: inherit !important;
+}
+.ant-menu {
+    margin-top: 20px !important;
+    background-color: inherit !important;
+}
+.ant-menu-item {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}

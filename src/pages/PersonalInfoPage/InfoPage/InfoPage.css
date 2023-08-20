@@ -1,0 +1,33 @@
+.ant-progress-bg {
+    height: 20px !important;
+}
+.ant-progress-inner {
+    border-radius: 4px !important;
+}
+.ant-tabs-ink-bar {
+    width: 0 !important;
+    background-color: transparent !important;
+}
+.ant-tabs-tab {
+    padding: 10px !important;
+    border-radius: 8px !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+}
+
+.ant-tabs-tab-active {
+    background-color: #41b294 !important;
+}
+.ant-tabs-tab-btn:hover {
+    color: #41b294 !important;
+}
+.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: white !important;
+
+}
+
+@media screen and (max-width: 768px) {
+    .ant-tabs-tab {
+        padding: 8px !important;
+    }
+}
