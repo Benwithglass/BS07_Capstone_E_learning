@@ -62,10 +62,10 @@ export default function SlideHome() {
               </h2>
               <Button
                 type="text"
-                size="large"
-                className="bg-[#f6ba35] colorBorder text-white mt-3"
+                
+                className="text-black mt-3"
               >
-                Bắt đầu nào
+                Bắt đầu nào!
               </Button>
             </div>
           </div>
