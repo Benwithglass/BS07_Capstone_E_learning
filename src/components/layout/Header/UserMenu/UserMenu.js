@@ -7,6 +7,7 @@ import { memo } from 'react';
 import './UserMenu.css';
 
 
+
 function UserMenu({userInfo, handleLogout}) {
     return (
         <div>
