@@ -4,6 +4,7 @@ import { DownOutlined } from '@ant-design/icons';
 import { Dropdown, Space, message } from 'antd';
 import { NavLink } from 'react-router-dom';
 import { memo } from 'react';
+import './UserMenu.css';
 
 
 function UserMenu({userInfo, handleLogout}) {
@@ -71,7 +72,7 @@ function UserMenu({userInfo, handleLogout}) {
                         <img className='rounded-full w-[40px] h-[40px]' src='/images/avatar.jpg' alt="lỗi" />
                     </Space>
                 </a>
-            </Dropdown>  : <div><NavLink to="/sign-in" className="mr-4 hover:text-[#ff006e] font-bold">Đăng nhập</NavLink> <NavLink to="/sign-up" className="hover:text-[#ff006e] font-bold">Đăng ký</NavLink></div>}
+            </Dropdown>  : <div className='signin-signup'><NavLink to="/sign-in" className="mr-4 hover:text-white font-bold">Đăng nhập</NavLink> <NavLink to="/sign-up" className="hover:text-white font-bold">Đăng ký</NavLink></div>}
         </div>
 
     )
