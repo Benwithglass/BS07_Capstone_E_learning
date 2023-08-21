@@ -20,6 +20,7 @@ export default function SlideHome() {
                 repeat: Infinity,
                 repeatDelay: 4,
               }}
+              // hello
             >
               {char}
             </motion.span>
