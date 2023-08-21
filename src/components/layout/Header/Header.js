@@ -117,10 +117,10 @@ export default function Header() {
                                     }}
                                 >
                                     <a onClick={(e) => e.preventDefault()}>
-                                        <Space>
+                                        <NavLink>
                                             <i className="las la-bars"></i>
                                             DANH MỤC
-                                        </Space>
+                                        </NavLink>
                                     </a>
                                 </Dropdown>
                             </li>
